@@ -13,41 +13,6 @@ This project focuses on the early detection of corn plant diseases using UAV ima
 - Vision Transformer
 - Fully Convolutional Auto-Encoder
 
-## Installation
-To run this project, ensure you have Python installed on your system. You can then install the required packages using the provided `requirements.txt` file.
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/corn-plant-disease-detection.git
-   cd corn-plant-disease-detection
-   ```
-2. Preprocess the data:
-   ```bash
-   python preprocess.py
-   ```
-3. Train the models:
-   ```bash
-   python train.py
-   ```
-4. Evaluate the models:
-   ```bash
-   python evaluate.py
-   ```
-
-## Project Structure
-- `data/`: Contains the dataset of corn plant images acquired from UAV drones
-- `preprocess.py`: Script for data preprocessing
-- `train.py`: Script to train the models
-- `evaluate.py`: Script to evaluate the models
-- `models/`: Directory to save trained models
-- `notebooks/`: Jupyter notebooks for exploratory data analysis
-- `requirements.txt`: List of required packages
-
 ## Results
 The project demonstrates the effectiveness of the Fully Convolutional Auto-Encoder model in detecting corn plant diseases with an accuracy of 95.09%, outperforming both the Vision Transformer and CNN models. This approach enables early and accurate disease identification, facilitating timely interventions and improving crop protection.
 
