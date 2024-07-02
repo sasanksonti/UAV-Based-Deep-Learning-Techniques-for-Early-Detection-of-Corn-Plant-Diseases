@@ -1,0 +1,1 @@
+# UAV-Based-Deep-Learning-Techniques-for-Early-Detection-of-Corn-Plant-Diseases
